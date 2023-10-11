@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+/* common css code start  */
+body{
+    background-color: #E6E8D2;
+    color: ;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* common css code end  */
+
+.flex-center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  
+  .preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #60D7A9;
+  }
+  
+  .dots .dot {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    margin: 0 10px 0 10px;
+    border-radius: 50%;
+    background: #FFF;
+    -webkit-animation: dot-dot-dot 1.4s linear infinite;
+    animation: dot-dot-dot 1.4s linear infinite;
+  }
+  
+  .dots .dot:nth-child(2) {
+    animation-delay: .2s;
+  }
+  
+  .dots .dot:nth-child(3) {
+    animation-delay: .4s;
+  }
+  
+  @keyframes dot-dot-dot {
+    0%, 60%, 100% {
+      -webkit-transform: initial;
+        -ms-transform: initial;
+          transform: initial;
+    }
+    30% {
+      -webkit-transform: translateY(-25px);
+        -ms-transform: translateY(-25px);
+          transform: translateY(-25px);
+    }
+  }
+/* header section start  */
+header{}
+
+.logo{
+    font-weight: 700;
+    font-size: 30px;
+
+
+}
+
+.menu{}
+
+.menu ul li a{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-right: 20px;
+
+}
+
+.menu ul li a:hover{
+    color: black;
+
+}
+
+.menu ul li:last-child a{
+    font-size: 18px;
+    padding: 6px 30px;
+    margin-right: 0;
+    color: white;
+
+
+}
+/* header section end  */
+
+
+/* banner section start  */
+.banner{
+    margin-top: 70px;
+}
+
+.b_h1{
+    font-size: 46px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding: 0 135px 0 0;
+    line-height: 60px;
+}
+.b_h1 span{
+    color: rgb(62, 62, 255);
+    line-height: 46px;
+
+}
+
+.b_p{
+    padding-right: 105px;
+    line-height: 27px;
+    margin: 45px 0 35px;
+}
+
+.b_btn1{
+    padding: 7px 17px;
+    margin-right: 25px;
+}
+
+.b_btn2{
+    padding: 7px 17px;
+}
+.b_img{}
+
+.b_img img{
+
+}
+
+.b_text{}
+
+/* banner section end  */
+
+/* feature section start */
+.feature{
+    margin-top: 70px;
+}
+
+.f_p{}
+
+.f_p p{
+    text-transform: uppercase;
+    color: rgb(62, 62, 255);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+.f_h1 h1{
+    font-weight: 600;
+    padding: 0 350px;
+    font-size: 46px;
+    margin: 20px 0 75px;
+}
+
+.f_item{}
+
+.f_item h3{
+    margin: 15px 0 7px;
+}
+
+.f_item p{
+    padding-right: 18px;
+    font-size: 18px;
+
+}
+
+
+.f_ico i{
+    font-size: 40px;
+}
+
+
+
+/* feature section end */
+
+/* services section start */
+.m_right{
+    margin-right: 15px;
+    padding: 6px 30px;
+}
+.service{
+    margin-top: 70px;
+}
+.s_h1 h1{
+    font-weight: 600;
+}
+/* service section end */
+
+/* sample section start */
+.s_item{
+    width: 270px;
+    height: 260px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin: auto;
+}
+.s_img {
+    width: 85%;
+}
+
+.s_img img{}
+
+.s_h3{
+    margin: 15px 0 8px;
+    text-align: center;
+    font-weight: 600;
+
+}
+.com_btn{
+    padding: 7px 20px;
+}
+
+/* sample section end */
+
+/* counter up plugin */
+.coun_ter{
+    margin: 100px 0 80px;
+}
+
+.bg_blue{
+    background-color: #4267FF;
+    color: white;
+    padding: 70px 0;
+}
+
+
+/* chips section start  */
+
+
+.chips_h1 h1{
+    font-size: 60px;
+    font-weight: 600;
+    padding: 0px 200px 0 0;
+    line-height: 80px;
+}
+.chips_p p{
+    font-size: 18px;
+    margin: 30px 0 20px;
+}
+.chips_btn button{
+    padding: 6px 25px;
+}
+/* chips section end  */
+
+
+/* testimonial section start */
+.testimony{
+    margin: 100px 0;
+}
+.test_1{
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 15px;
+
+}
+.img_ex{
+    display: inline;
+
+}
+.img_ex img{
+    display: inline;
+    width: 17% !important;
+}
+.inline{
+    display: inline;
+}
+.m_top{
+    margin-top: 8px;
+}
+/* testimonial section end */
+
+/* footer section strat */
+/* footer top start */
+a{
+    text-decoration: none;
+}
+.ft_h3{}
+
+.white li a{
+    color: white;
+    
+} 
+footer{
+    background-color: lightslategray;
+    padding: 55px 0;
+    color: white;
+}
+input{
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+}
+.cus_btn{
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+input:focus{
+    outline: none;
+}
+
+/* footer top end */
+
+
+/* footer section end */
+
+

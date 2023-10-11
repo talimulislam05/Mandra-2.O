@@ -1,0 +1,512 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) { 
+    /* header section start  */
+    header{
+        text-align: end;
+    }
+    .menu ul li a {
+        padding: 0;
+        margin-top: 6px;
+        margin-right: 0;
+    }
+    .menu ul li:last-child a {
+        font-size: 17px;
+        padding: 8px 30px;
+        margin-right: 0;
+        color: white;
+    }
+    .togg_ler{
+        font-size: 1.1rem;
+    }
+    .logo{
+        font-size: 27px;
+    }
+    /* header section end  */
+
+    /* banner section start  */
+    .banner {
+        margin-top: 30px;
+    }
+    .b_h1 {
+        font-size: 34px;
+        line-height: 45px;
+        padding: 0px 0px;
+        margin-top: 27px;
+    }
+    .b_p {
+        margin: 25px 0 18px;
+        padding: 0;
+    }
+    .b_text{
+        text-align: center;
+    }
+    .b_img{
+        width: 95%;
+        margin: auto;
+    }
+
+    /* banner section end */
+
+    /* feature section start */
+    .feature {
+        margin-top: 60px;
+    }
+    .f_item{
+        text-align: center;
+        margin-top: 30px;
+    }
+   
+    .f_p p {
+        font-size: 18px;
+    }
+    .f_h1 h1 {
+        padding: 0 50px;
+        font-size: 34px !important;
+        margin: 0px 0 30px;
+    }
+    .f_ico i {
+        font-size: 35px;
+    }
+    .f_item h3 {
+        font-size: 19px;
+    }
+    .f_item p {
+        font-size: 16px;
+        padding: 0 15px;
+    }
+    .f_h1 h1 {
+        font-size: 39px;
+        padding: 0;
+    }
+    
+    /* feature section end */
+
+    /* service section start */
+    .m_right {
+        padding: 6px 16px;
+        margin-top: 15px;
+    }
+    .s_h1 h1 {
+        font-size: 34px;
+    }
+
+    /* sample section start */
+    .s_item {
+        width: 200px;
+        height: 200px;
+    }
+    .s_img {
+        width: 80%;
+    }
+    .s_item {
+        margin: 25px auto 0;
+    }
+    .s_h3 {
+        text-align: center;
+    }
+    /* .com_btn {
+        margin-left: 110px;
+    } */
+    /* chips section start */
+    .test_1 {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .chips_h1 h1 {
+        font-size: 27px;
+        padding: 0;
+        line-height: 35px;
+        text-align: center;
+        
+    }
+    .chips_p p {
+        font-size: 16px;
+        text-align: center;
+        margin: 15px 0;
+    }
+    .chips_btn{
+        text-align: center;
+    }
+    .img_ex img {
+        width: 27% !important;
+    }
+    /* footer section start */
+    .ft_texts{
+        text-align: center;
+        padding: 0;
+    
+    }
+    .word_cen{
+        text-align: center;
+    }
+    .cus_mar{
+        margin: 20px 0 10px;
+    }
+    .cus_pad{
+        padding: 0;
+    }
+    .cus_btn{
+        margin-top: 10px;
+    }
+    /* footer section end */
+
+    
+ }
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /* header section start  */
+    header{
+        text-align: end;
+    }
+    .menu ul li a {
+        padding: 0;
+        margin-top: 7px;
+        margin-right: 0;
+    }
+    .menu ul li:last-child a {
+        font-size: 17px;
+        padding: 8px 30px;
+        margin-right: 0;
+        color: white;
+    }
+    /* header section end  */
+
+    /* banner section start  */
+    .b_h1 {
+        font-size: 39px;
+        line-height: 56px;
+        padding: 0px 0px;
+        margin-top: 35px;
+    }
+    .b_p {
+        margin: 30px 0 25px;
+        padding: 0 50px;
+    }
+    .b_text{
+        text-align: center;
+    }
+    .b_img{
+        width: 95%;
+        margin: auto;
+    }
+
+    /* banner section end */
+
+    /* feature section start */
+    .feature {
+        margin-top: 60px;
+    }
+    .f_item{
+        text-align: center;
+        margin-top: 30px;
+    }
+   
+    .f_p p {
+        font-size: 18px;
+    }
+    .f_h1 h1 {
+        padding: 0 50px;
+        font-size: 42px;
+        margin: 0px 0 30px;
+    }
+    .f_ico i {
+        font-size: 35px;
+    }
+    .f_item h3 {
+        font-size: 19px;
+    }
+    .f_item p {
+        font-size: 16px;
+        padding: 0 30px;
+    }
+    .f_h1 h1 {
+        font-size: 39px;
+        padding: 0;
+    }
+    
+    /* feature section end */
+
+    /* service section start */
+    .m_right {
+        padding: 6px 25px;
+        margin-top: 15px;
+    }
+    .s_h1 h1 {
+        font-size: 39px;
+    }
+
+    /* sample section start */
+    .s_item {
+        width: 240px;
+        height: 240px;
+    }
+    .s_img {
+        width: 80%;
+    }
+    .s_item {
+        margin: 25px auto 0;
+    }
+    .s_h3 {
+        text-align: center;
+    }
+    /* .com_btn {
+        margin-left: 80px;
+    } */
+
+    /* chips section start */
+    .test_1 {
+        width: 85%;
+        margin: 0 auto;
+    }
+    .chips_h1 h1 {
+        font-size: 43px;
+        padding: 0;
+        line-height: 60px;
+        text-align: center;
+        
+    }
+    .chips_p p {
+        text-align: center;
+        margin: 20px 0 15px;
+    }
+    .chips_btn{
+        text-align: center;
+    }
+    /* footer section start */
+    .ft_texts{
+        text-align: center;
+        padding: 0;
+    
+    }
+    .word_cen{
+        text-align: center;
+    }
+    .cus_mar{
+        margin: 20px 0 25px;
+    }
+    .cus_pad{
+        padding: 0;
+    }
+    /* footer section end */
+    
+
+    
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /* header section start  */
+    header{
+        text-align: end;
+    }
+    .menu ul li a {
+        padding: 0;
+        margin-top: 7px;
+        margin-right: 0;
+    }
+    .menu ul li:last-child a {
+        font-size: 17px;
+        padding: 8px 30px;
+        margin-right: 0;
+        color: white;
+    }
+    /* header section end  */
+
+    /* banner section start  */
+    .b_h1 {
+        padding: 0 40px;
+        margin-top: 35px;
+        font-size: 44px;
+    }
+    .b_p {
+        margin: 35px 0 27px;
+        padding: 0 93px;
+    }
+    .b_text{
+        text-align: center;
+    }
+
+    /* banner section end */
+
+    /* feature section start */
+    .feature {
+        margin-top: 60px;
+    }
+   
+    .f_p p {
+        font-size: 18px;
+    }
+    .f_h1 h1 {
+        padding: 0 50px;
+        font-size: 42px;
+        margin: 0px 0 60px;
+    }
+    .f_ico i {
+        font-size: 35px;
+    }
+    .f_item h3 {
+        font-size: 19px;
+    }
+    .f_item p {
+        padding-right: 0;
+        font-size: 16px;
+    }
+    .f_h1 h1 {
+        font-size: 44px;
+    }
+    /* feature section end */
+
+    /* service section start */
+    /* .m_right{
+        padding: 6px 25px;
+        margin-top: 15px;
+    } */
+    .m_right {
+        padding: 6px 35px;
+        margin-top: 15px;
+    }
+    .s_h1 h1{
+        font-size: 44px;
+    }
+
+    /* sample section start */
+
+    .s_item {
+        margin: 25px auto 0;
+    }
+    .s_h3 {
+        text-align: center;
+    }
+    /* .com_btn {
+        margin-left: 125px;
+    } */
+    /* sample section end */
+
+    /* counter section */
+    .cou_mar{
+        margin: 40px 0;
+    }
+    /* counter section */
+
+
+
+    /* chips section start */
+    .chips_h1 h1 {
+        font-size: 55px;
+        padding: 0;
+        line-height: 75px;
+        text-align: center;
+    }
+    .chips_p p {
+        text-align: center;
+    }
+    .chips_btn{
+        text-align: center;
+    }
+    /* footer section start */
+    .ft_texts{
+        text-align: center;
+        padding: 0 10px;
+    
+    }
+    .word_cen{
+        text-align: center;
+    }
+    .cus_mar{
+        margin: 20px 0 25px;
+    }
+    .cus_pad{
+        padding: 0 70px;
+    }
+    /* footer section end */
+
+
+
+    
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    /* banner section start  */
+    .b_p {
+        padding-right: 0;
+        margin: 30px 0 25px;
+    }
+    .b_h1 {
+        font-size: 44px;
+        padding: 0 0px 0 0;
+        line-height: 57px;
+    }
+    /* banner section end */
+
+    /* feature section start */
+    .f_item p {
+        padding-right: 0;
+        font-size: 16px;
+    }
+
+    .f_h1 h1 {
+        padding: 0 110px;
+    }
+    .f_item h3 {
+        margin: 18px 0 10px;
+        font-size: 23px;
+    }
+    .f_h1 h1 {
+        margin: 0px 0 60px;
+
+    }
+    /* feature section end */
+
+
+    /* service section start */
+    .m_right{
+        padding: 6px 25px;
+    }
+    /* service section end */
+
+
+    /* sample section start */
+    .s_item {
+        width: 200px;
+        height: 200px;
+        
+    }
+    .text_cen{
+        text-align: center;
+    }
+    /* .com_btn {
+        margin-left: 60px;
+    } */
+    /* sample section end */
+
+    /* chips section start */
+    .chips_h1 h1 {
+        font-size: 50px;
+        padding: 0px 15px 0px 0px;
+        line-height: 70px;
+        
+    }
+    /* chips section end */
+
+
+    
+
+    
+    
+ }
+
+ /* Extra large devices (large desktops, 1200px and up) */
+ @media (min-width: 1200px) and (max-width: 1399.98px) { 
+    /* chips section */
+    .chips_h1 h1 {
+        padding: 0px 100px 0 0;
+    }
+    
+  }
+
+ /* Extra Extra large devices (Extra large desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    
+ }
